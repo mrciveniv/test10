@@ -1,0 +1,151 @@
+    1  gedit /etc/apt/sources.list.d/vbox.list
+    2  apt-get install gedit
+    3  apt-get install vim
+    4  apt-get tree
+    5  apt-get install tree
+    6  gedit /etc/apt/sources.list.d/vbox.list
+    7  apt-get update && sudo apt-get -y upgrade
+    8  apt-get remove virtualbox*
+    9  apt-get install virtualbox-4.3
+   10  apt-get install dkms
+   11  apt-get install virtualbox-4.3
+   12  apt-get remove virtualbox*
+   13  locate virtualbox
+   14  apt-get install virtualbox-4.3
+   15  apt-get update && sudo apt-get -y upgrade
+   16  sudo apt-get remove virtualbox*
+   17  apt-get install virtualbox-4.3
+   18  Oracle VM VirtualBox
+   19  apt-get lintian
+   20  apt-get install lintian
+   21  apt-get install virtualbox-4.3
+   22  sudo apt-get remove virtualbox*
+   23  apt-get install dkms
+   24  wget -q http://download.virtualbox.org/virtua... -O- | sudo apt-key add -
+   25  sudo apt-get update
+   26  gpg --keyserver http://www.freedesktop.org/software/gstreamer-sdk/sdk.gpg --recv-keys 1397BC53640DB551
+   27  gpg --export --armor 1900C4BE|sudo apt-key add -
+   28  apt-get remove dkms
+   29  apt-get update
+   30  exit
+   31  apt-get install apache2 -y
+   32  apt-get php5 libapache2-mod-php5 -y
+   33  apt-get install php5 libapache2-mod-php5 -y
+   34  apt-get install php5 libapache2-mod-php5.6 -y
+   35  apt-get install php5 libapache2-mod-php7 -y
+   36  apt-get install php7 libapache2-mod-php7 -y
+   37  apt-get php5.6
+   38  apt-get install php5.6
+   39  apt-get install php5.6 libapache2-mod-php5.6 -y
+   40  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+   41  sudo apt-get install php5.6 libapache2-mod-php5.6 php5.6-mcrypt
+   42  mkdir practicando
+   43  cd practicando/
+   44  touch explicacion.txt
+   45  vim explicacion.txt 
+   46  ls -l
+   47  git init
+   48  apt-get install git
+   49  git init
+   50  ls -l
+   51  git add explicacion.txt 
+   52  git commit -m 'primera subida'
+   53  git config --global user.name "mrciveniv"
+   54  git config --global user.email "w79cr@yahoo.com"
+   55  git commit -m 'primera subida'
+   56  git remote add origin http://github.com/mrciveniv/practicando
+   57  mkdir historialprueba
+   58  cd historialprueba/
+   59  git init
+   60  touch historialprof
+   61  git commit -m 'segunda subida'
+   62  git add historialprof 
+   63  git commit -m 'segunda subida'
+   64  ls
+   65  cd ..
+   66  ls -l
+   67  git push -u origin master
+   68  ls -l
+   69  rm -R historialprueba/
+   70  ls -l
+   71  git push -u origin master
+   72  git remote add origin http://github.com/mrciveniv/practicando
+   73  git push -u origin master
+   74  ls -l
+   75  git init
+   76  git add explicacion.txt 
+   77  git commit -m "primera subida del proyecto"
+   78  git commit -m " subida del proyecto"
+   79  git remote add origin http://github.com/mrciveniv/explicacion.txt
+   80  git push -u origin master
+   81  git init
+   82  touch otro.txt
+   83  git add .
+   84  git commit -m "otra subida"
+   85  git push -u origin master
+   86  git pull
+   87  cd
+   88  ls
+   89  rm -r practicando/
+   90  ls
+   91  sudo apt-get install git
+   92  git config --global user.name "mrciveniv"
+   93  git config --global user.email "w79cr@yahoo.com"
+   94  mkdir otro
+   95  cd otro/
+   96  git init
+   97  clear
+   98  git remote add origin http://github.com/mrciveniv/otro.git
+   99  ls -l
+  100  touch shiit.txt
+  101  ls -l
+  102  git init
+  103  add shiit.txt 
+  104  git add shiit.txt 
+  105  git commit -m 'subida 1'
+  106  git remote add origin http://github.com/mrciveniv/otro.git
+  107  git push -u origin master
+  108  cd
+  109  ls -l
+  110  rm -r otro
+  111  ls -l
+  112  clear
+  113  mkdir otro2
+  114  cd otro2/
+  115  touch prueba.md
+  116  vim prueba.md 
+  117  ls -l
+  118  git init
+  119  git add prueba.md 
+  120  git commit -m 'primera subida'
+  121  git remote add origin git@github.com:mrciveniv/otro2.git
+  122  git push -u origin master
+  123  git config --global user.name "mrciveniv"
+  124  git config --global user.email "w79cr@yahoo.com"
+  125  git push -u origin master
+  126  git remote add origin https://github.com/mrciveniv/otro2.git
+  127  git push -u origin master
+  128  cd
+  129  rm -r otro
+  130  rm -r otro2
+  131  ls -l
+  132  mkdir pruebasgit
+  133  cd pruebasgit/
+  134  git config --global user.name "mrciveniv"
+  135  git config --global user.email "w79cr@yahoo.com"
+  136  cd 
+  137  mv pruebasgit test10
+  138  ls -l
+  139  cd test10/
+  140  git init
+  141  git remote add origin https://github.com/mrciveniv/test10.git
+  142  touch README
+  143  git add README
+  144  git commit -m 'first commit'
+  145  git push origin master
+  146  vim README 
+  147  git add .
+  148  git commit -m 'segundo commit'
+  149  git push origin master
+  150  mkdir history
+  151  history >> history.txt
